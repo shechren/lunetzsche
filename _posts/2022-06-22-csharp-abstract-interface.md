@@ -1,7 +1,7 @@
 ---
 title: C# - 추상(abstract) 클래스와 인터페이스(interface)
 date: 2022-06-22 18:58:15 +/-09:00
-category: C_sharp/basic]
+category: [C_sharp/basic]
 tag: [C_sharp, abstract, interface]
 ---
 
@@ -48,7 +48,7 @@ interface Imyinterface
     {
         void Ifunction();
     }
-    ```
+```
 인터페이스를 상속하는 클래스는 선언된 모든 함수와 프로퍼티를 구현해야 하는데, 함수들은 반드시 public 한정자를 가져야만 한다. 그렇지 않으면 인터페이스를 상속받을 수 없다는 이야기.
 
 ```csharp
