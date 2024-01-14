@@ -13,13 +13,12 @@ tag: [flutter, error]
 ```
 가 뜰 적이 있다. 당황하지 말자.
 
-1. 
 ```terminal
 brew uninstall dart
 ```
 Flutter를 쓸 적에 dart가 필요 없으니 brew에서 지운다.
 
-2. 이런데도 안 되는 경우가 종종 있다. 환경변수에서 Dart가 남아있기 때문이다.
+이런데도 안 되는 경우가 종종 있다. 환경변수에서 Dart가 남아있기 때문이다.
 ```terminal
 nano ~/.zshrc
 ```
