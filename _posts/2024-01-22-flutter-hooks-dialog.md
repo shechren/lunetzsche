@@ -1,5 +1,5 @@
 ---
-title: Flutter - Radio in Dialog (flutter_hooks)
+title: Flutter - Radio in Dialog
 date: 2024-01-22 21:48:00 +/-09:00
 category: [flutter/state]
 tag: [flutter, hooks, radio, dialog]
