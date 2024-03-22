@@ -9,7 +9,7 @@ tag: [mathematics, euclidean]
 - [**유클리드 거리**](#유클리드-거리)
 - [**Quiz 1**](#quiz-1)
 - [**Quiz 2**](#quiz-2)
-- [**Quiz 1**](#quiz-3)
+- [**Quiz 3**](#quiz-3)
 
 ---
 
