@@ -8,15 +8,15 @@ tag: [mathematics, distribution]
 - [**확률변수**](#확률변수)
 - [**분포**](#분포)
   - [**이산확률분포**](#이산확률분포)
-    - [**이항 분포 (Binomial Distribution)**](#이항-분포-binomial-distribution)
-    - [**포아송 분포 (Poisson Distribution)**](#포아송-분포-poisson-distribution)
-    - [**기하 분포 (Geometric Distribution)**](#기하-분포-geometric-distribution)
+    - [**이항 분포 (Binomial Distribution)**](#이항-분포)
+    - [**포아송 분포 (Poisson Distribution)**](#포아송-분포)
+    - [**기하 분포 (Geometric Distribution)**](#기하-분포)
   - [**연속확률분포**](#연속확률분포)
-    - [**정규 분포 (Normal Distribution)**](#정규-분포-normal-distribution)
-    - [**표준 정규 분포 (Standard Normal Distribution)**](#표준-정규-분포-standard-normal-distribution)
-    - [**t 분포 (t-Distribution)**](#t-분포-t-distribution)
-    - [**카이제곱 분포 (Chi-squared Distribution)**](#카이제곱-분포-chi-squared-distribution)
-    - [**F 분포 (F-Distribution)**](#f-분포-f-distribution)
+    - [**정규 분포 (Normal Distribution)**](#정규분포)
+    - [**표준 정규 분포 (Standard Normal Distribution)**](#표준정규분포)
+    - [**t 분포 (t-Distribution)**](#t분포)
+    - [**카이제곱 분포 (Chi-squared Distribution)**](#카이제곱분포)
+    - [**F 분포 (F-Distribution)**](#f분포)
 
 ---
 
@@ -38,19 +38,19 @@ tag: [mathematics, distribution]
 
 ## **이산확률분포**
 
-### **이항 분포(binomial distribution)**
+### **이항 분포**
 이항 분포(binomial distribution)는 실험 결과가 성공 또는 실패라는 두 가지 경우가 있는 경우에 사용된다.
 
 $$ P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} $$
 
  - ex: 동전 던지기의 결과
 
-### **푸아송 분포(Poisson Distribution)**
+### **푸아송 분포**
 푸아송 분포(Poisson Distribution)는 특정 시공간에서 발생하는 이벤트의 횟수를 나타낼 때 적합하다.
 
 $$ P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!} $$
 
-### **기하분포 (Geometric Distribution)**
+### **기하분포**
  - ex: 1시간동안 매장에 방문한 손님의 수
 
 기하분포 (Geometric Distribution)는 첫 성공이 발생할 때까지의 실패 횟수를 나타낸다.
@@ -60,31 +60,31 @@ $$ P(X = k) = (1-p)^{k-1} p $$
 
 ## **연속확률분포**
 
-### **정규 분포(Normal Distribution)**
+### **정규분포**
 
 평균 μ를 중심으로 종 모양의 대칭을 이루는 분포다. 가장 널리 사용된다.
 
 $$ f(x|\mu, \sigma^2) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} $$
 
-### **표준 정규 분포(Standard Normal Distribution)**
+### **표준정규분포**
 
 정규 분포의 특수한 형태다. 평균이 0이며 분산이 1이다. 통계적 검정 및 표준화 점수 계산에 이용된다. **z분포** 라고도 부른다.
 
 $$ f(z) = \frac{1}{\sqrt{2\pi}} e^{-\frac{z^2}{2}} $$
 
-### **t분포(t-Distribution)**
+### **t분포**
 
 작은 표본(30이하)에서 모표준편차가 알려지지 않은 상태에서 정규분포의 표본을 추정할 때 사용된다. 자유도 v에 따라 모양이 달라지며, 𝑣가 높아질수록 표준정규분포에 근사한다.
 
 $$ f(t|v) = \frac{\Gamma(\frac{v+1}{2})}{\sqrt{v\pi}\Gamma(\frac{v}{2})} (1+\frac{t^2}{v})^{-\frac{v+1}{2}} $$
 
-### **카이제곱분포(Chi-squared Distribution)**
+### **카이제곱분포**
 
 주로 독립식 검정 또는 적합도 검정에서 사용된다.자유도 𝑘의 제곱합으로 계산되며, 크로스테이블에서 기대치와 관측치의 차이를 분석하는 데 사용된다.
 
 $$ f(x|k) = \frac{x^{k/2-1} e^{-x/2}}{2^{k/2} \Gamma(k/2)} $$
 
-### **F분포(F-Distribution)**
+### **F분포**
 
 두 분산의 비율을 검정하는데 사용한다.
 
