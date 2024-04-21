@@ -8,9 +8,9 @@ tag: [mathematics, distribution]
 - [**확률변수**](#확률변수)
 - [**분포**](#분포)
   - [**이산확률분포**](#이산확률분포)
-    - [**이항 분포 (Binomial Distribution)**](#이항-분포)
-    - [**포아송 분포 (Poisson Distribution)**](#포아송-분포)
-    - [**기하 분포 (Geometric Distribution)**](#기하-분포)
+    - [**이항 분포 (Binomial Distribution)**](#이항분포)
+    - [**포아송 분포 (Poisson Distribution)**](#포아송분포)
+    - [**기하 분포 (Geometric Distribution)**](#기하분포)
   - [**연속확률분포**](#연속확률분포)
     - [**정규 분포 (Normal Distribution)**](#정규분포)
     - [**표준 정규 분포 (Standard Normal Distribution)**](#표준정규분포)
@@ -38,14 +38,14 @@ tag: [mathematics, distribution]
 
 ## **이산확률분포**
 
-### **이항 분포**
+### **이항분포**
 이항 분포(binomial distribution)는 실험 결과가 성공 또는 실패라는 두 가지 경우가 있는 경우에 사용된다.
 
 $$ P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} $$
 
  - ex: 동전 던지기의 결과
 
-### **푸아송 분포**
+### **푸아송분포**
 푸아송 분포(Poisson Distribution)는 특정 시공간에서 발생하는 이벤트의 횟수를 나타낼 때 적합하다.
 
 $$ P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!} $$
