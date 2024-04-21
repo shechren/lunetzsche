@@ -9,7 +9,7 @@ tag: [mathematics, distribution]
 - [**분포**](#분포)
   - [**이산확률분포**](#이산확률분포)
     - [**이항 분포 (Binomial Distribution)**](#이항분포)
-    - [**포아송 분포 (Poisson Distribution)**](#포아송분포)
+    - [**푸아송 분포 분포 (Poisson Distribution)**](#푸아송분포)
     - [**기하 분포 (Geometric Distribution)**](#기하분포)
   - [**연속확률분포**](#연속확률분포)
     - [**정규 분포 (Normal Distribution)**](#정규분포)
