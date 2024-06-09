@@ -1,6 +1,6 @@
 ---
 title: Data-Science - 피어슨 상관계수(Pearson correlation coefficient)
-date: 2024-06-08 22:20 +/-09:00
+date: 2024-06-09 22:20 +/-09:00
 category: [data science]
 tag: [data science, pearson correlation coefficient]
 ---
@@ -40,13 +40,13 @@ $$
 
 피어슨 상관계수는 두 변수 간의 선형 관계만을 측정하므로, 두 변수 간에 비선형 관계가 있을 경우에는 상관계수가 0에 가까운 값을 가질 수 있다. 이때, 두 변수 간의 관계가 없다고 해석해서는 안 된다.
 
-## **스피어만 상관계수**
+# **스피어만 상관계수**
 스피어만 상관계수(Spearman's rank correlation coefficient)는 두 변수 간의 순위 상관 관계를 측정하는 방법이다. 비모수적 방법으로, 변수 간의 단조(monotonic) 관계를 평가한다.
 
-## **켄달의 타우**
+# **켄달의 타우**
 켄달의 타우(Kendall's tau)는 두 변수 간의 순위 상관 관계를 측정하는 또 다른 비모수적 방법이다. 두 변수의 순위 쌍을 비교하여 순서가 일치하는 정도를 평가한다.
 
-## **포인트 바이세리얼 상관계수**
+# **포인트 바이세리얼 상관계수**
 포인트 바이세리얼 상관계수(Point-biserial correlation coefficient)는 하나의 변수가 이분형(binary)일 때 사용하는 상관계수이다. 연속형 변수와 이분형 변수 간의 상관 관계를 측정한다.
 
 ---
