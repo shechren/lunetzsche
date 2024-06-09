@@ -19,7 +19,7 @@ tag: [data science, pearson correlation coefficient]
 피어슨 상관계수의 수식은 다음과 같다:
 
 $$
-r = \frac{{\sum (x_i - \bar{x})(y_i - \bar{y})}}{{\sqrt{\sum (x_i - \bar{x})^2} \sqrt{\sum (y_i - \bar{y})^2}}}
+r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2} \sqrt{\sum (y_i - \bar{y})^2}}
 $$
 
 여기서 ( x_i )와 ( y_i )는 각각의 데이터 포인트이고, \( \bar{x} \)와 \( \bar{y} \)는 각각의 평균값이다.
