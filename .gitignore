@@ -20,3 +20,6 @@ package-lock.json
 
 # Misc
 assets/js/dist
+
+# 봉인
+_posts
