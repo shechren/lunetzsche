@@ -8,7 +8,7 @@ tag: [python, opencv]
 본 포스팅은 이 책을 많이 참고했다. [!https://www.yes24.com/Product/Goods/99029275](https://www.yes24.com/Product/Goods/99029275)
 
 ---
-
+ 
 윈도우 설정 방법에 대해 알아본다.
 이미지 크기를 조절하는 방법부터 알아보자.
 
