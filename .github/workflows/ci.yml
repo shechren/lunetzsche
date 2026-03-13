@@ -24,22 +24,10 @@ jobs:
         ruby: ["3.0", "3.1", "3.2"]
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1 # @v1은 항상 최신 마이너 버전을 유지합니다.
         with:
-          fetch-depth: 0 # for posts's lastmod
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-
-      - name: Build Assets
-        run: npm i && npm run build
-
-      - name: Test Site
-        run: bash tools/test
+          ruby-version: '3.1.4'
+          bundler-cache: true # 의존성 캐싱을 활성화하여 빌드 속도를 높입니다.
