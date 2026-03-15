@@ -1,7 +1,7 @@
 #  The contact options.
-- type: instagram
-  icon: "fa-brands fa-instagram"
-  url: "https://www.instagram.com/shechren/"
+# - type: instagram
+#   icon: "fa-brands fa-instagram"
+#   url: ""
 
 - type: github
   icon: "fab fa-github"
