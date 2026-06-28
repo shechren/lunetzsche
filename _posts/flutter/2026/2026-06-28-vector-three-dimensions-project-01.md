@@ -2,7 +2,7 @@
 title: Mathematics - Euclidean distance(유클리드 거리) 및 3D 투영 매트릭스 구현
 date: 2026-06-28 16:00:00 +0900
 category: [flutter]
-tag: [flutter, 3d, math]
+tag: [flutter, 3d]
 ---
 
 - [**목표**](#목표)
