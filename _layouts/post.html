@@ -82,11 +82,6 @@ tail_includes:
 
 </div> <!-- .post-meta -->
 
-<ins class="kakao_ad_area" style="display:none;"
-data-ad-unit = "DAN-120ljY1k4Z1X0h46"
-data-ad-width = "320"
-data-ad-height = "100"></ins>
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 <div class="post-content">
   {{ content }}
 </div>
@@ -136,11 +131,24 @@ data-ad-height = "100"></ins>
 
     {% include post-sharing.html lang=lang %}
   </div><!-- .post-tail-bottom -->
-  <ins class="kakao_ad_area" style="display:none;"
-data-ad-unit = "DAN-WvKfwukkfbXEKbcc"
-data-ad-width = "320"
-data-ad-height = "50"></ins>
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+  <!-- Kakao AdFit: PC 728x90 / mobile 320x50 -->
+  <div id="adfit-wrapper" class="d-flex justify-content-center my-4"></div>
+  <script>
+    (function () {
+      var isPc = window.matchMedia('(min-width: 1400px)').matches;
+      var ins = document.createElement('ins');
+      ins.className = 'kakao_ad_area';
+      ins.style.display = 'none';
+      ins.setAttribute('data-ad-unit', isPc ? 'DAN-IhgPZyej2qv4KRuK' : 'DAN-SGVld4nfB7ZGS3qQ');
+      ins.setAttribute('data-ad-width', isPc ? '728' : '320');
+      ins.setAttribute('data-ad-height', isPc ? '90' : '50');
+      document.getElementById('adfit-wrapper').appendChild(ins);
+      var js = document.createElement('script');
+      js.async = true;
+      js.src = '//t1.kakaocdn.net/kas/static/ba.min.js';
+      document.getElementById('adfit-wrapper').appendChild(js);
+    })();
+  </script>
   <script src="https://utteranc.es/client.js"
         repo="shechren/lunetzsche"
         issue-term="pathname"
